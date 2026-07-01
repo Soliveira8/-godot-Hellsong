@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfs8glc65ef2m"]
+
+[ext_resource type="Script" uid="uid://b58dy6wbu0t2h" path="res://scripts/world/snow.gd" id="1_ahk17"]
+
+[node name="SNOW" type="Node2D"]
+script = ExtResource("1_ahk17")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cflgt0aiheiwr"
+path="res://.godot/imported/Erang - Dark Dungeon Synth Free Sample Pack - 45 Dark_Dungeon_TAPE_HISS_01.mp3-6d9984c4be66b08ea11c15ff31abef4a.mp3str"
+
+[deps]
+
+source_file="res://MP3/Erang - Dark Dungeon Synth Free Sample Pack - 45 Dark_Dungeon_TAPE_HISS_01.mp3"
+dest_files=["res://.godot/imported/Erang - Dark Dungeon Synth Free Sample Pack - 45 Dark_Dungeon_TAPE_HISS_01.mp3-6d9984c4be66b08ea11c15ff31abef4a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

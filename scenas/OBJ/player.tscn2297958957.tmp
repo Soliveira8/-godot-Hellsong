@@ -1,0 +1,380 @@
+[gd_scene load_steps=83 format=3 uid="uid://bancv3cv22b8w"]
+
+[ext_resource type="Script" uid="uid://cd8kl7p6ur3ei" path="res://scripts/entidades/player/move.gd" id="1_a0s64"]
+[ext_resource type="Texture2D" uid="uid://dunune84pm3ju" path="res://sprites/personagens/Ivan/quadro0009/quadro0000.png" id="1_jf82e"]
+[ext_resource type="Texture2D" uid="uid://b2bg3c0wm8m3i" path="res://sprites/personagens/Ivan/idle/Ivan.png" id="1_jx2bj"]
+[ext_resource type="Texture2D" uid="uid://bvb6hwcn5g5g3" path="res://sprites/personagens/Ivan/agachando/Ivan_pose.png" id="2_da1kd"]
+[ext_resource type="Texture2D" uid="uid://c38ncxekkas6g" path="res://sprites/personagens/Ivan/quadro0009/quadro0001.png" id="2_vwecp"]
+[ext_resource type="Texture2D" uid="uid://bmq77xevuah2l" path="res://sprites/personagens/Ivan/quadro0009/quadro0002.png" id="3_6fcp8"]
+[ext_resource type="Texture2D" uid="uid://cfdufi3q2n2mx" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB1.png" id="3_6yleu"]
+[ext_resource type="Texture2D" uid="uid://byb63675asky8" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB2.png" id="4_2bnog"]
+[ext_resource type="Texture2D" uid="uid://bxbb7c2rr0y8u" path="res://sprites/personagens/Ivan/quadro0009/quadro0003.png" id="4_lmatn"]
+[ext_resource type="Texture2D" uid="uid://bcg4er0wxclne" path="res://sprites/personagens/Ivan/quadro0009/quadro0004.png" id="5_7abix"]
+[ext_resource type="Texture2D" uid="uid://bg0bnhu35vxth" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB3.png" id="5_nhg1u"]
+[ext_resource type="Texture2D" uid="uid://jqy7pkqgil5h" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB4.png" id="6_6phqr"]
+[ext_resource type="Texture2D" uid="uid://dou4g0m5eklcy" path="res://sprites/personagens/Ivan/quadro0009/quadro0005.png" id="6_bi83s"]
+[ext_resource type="Texture2D" uid="uid://6s6eevsresb4" path="res://sprites/personagens/Ivan/quadro0009/quadro0006.png" id="7_8jada"]
+[ext_resource type="Texture2D" uid="uid://mufjhfgbolm7" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB5.png" id="7_k16cu"]
+[ext_resource type="Texture2D" uid="uid://jj5ukoicvy6l" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB6.png" id="8_8naun"]
+[ext_resource type="Texture2D" uid="uid://c6a8u8disoie7" path="res://sprites/personagens/Ivan/quadro0009/quadro0007.png" id="8_vy2nf"]
+[ext_resource type="Texture2D" uid="uid://bqcj5w8f65unq" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB7.png" id="9_mcu4p"]
+[ext_resource type="Texture2D" uid="uid://cko6gdvvmx81a" path="res://sprites/personagens/Ivan/quadro0009/quadro0008.png" id="9_qnqiy"]
+[ext_resource type="Texture2D" uid="uid://fjpbxxblwqau" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB8.png" id="10_ahqwc"]
+[ext_resource type="Texture2D" uid="uid://gnt68ecj5jva" path="res://sprites/personagens/Ivan/quadro0009/quadro0009.png" id="10_dseh5"]
+[ext_resource type="Texture2D" uid="uid://glnb6ucrh1u" path="res://sprites/personagens/Ivan/quadro0009/quadro0010.png" id="11_dn4l8"]
+[ext_resource type="Texture2D" uid="uid://dusecrqd2onao" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB9.png" id="11_vs1bn"]
+[ext_resource type="Texture2D" uid="uid://b8vc6jda8pvu" path="res://sprites/personagens/Ivan/quadro0009/quadro0011.png" id="12_anl41"]
+[ext_resource type="Texture2D" uid="uid://b8ng1ys7rhbl7" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB10.png" id="12_mgfrp"]
+[ext_resource type="Texture2D" uid="uid://dbeajyw1g4sm3" path="res://sprites/personagens/Ivan/quadro0009/quadro0012.png" id="13_40qee"]
+[ext_resource type="Texture2D" uid="uid://7cf57fe8rtyh" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB11.png" id="13_m23nk"]
+[ext_resource type="Texture2D" uid="uid://blxgc5mi8nejg" path="res://sprites/personagens/Ivan/CLIMB/IvanCLIMB12.png" id="14_3eeib"]
+[ext_resource type="Texture2D" uid="uid://bms4jf7js7l14" path="res://sprites/personagens/Ivan/quadro0009/quadro0013.png" id="14_dxpw6"]
+[ext_resource type="Texture2D" uid="uid://b2n5nqc8w4ctu" path="res://sprites/personagens/Ivan/quadro0009/quadro0014.png" id="15_jsl1n"]
+[ext_resource type="Texture2D" uid="uid://hy7olst7e3uq" path="res://sprites/personagens/Ivan/quadro0009/quadro0015.png" id="16_cxppe"]
+[ext_resource type="Texture2D" uid="uid://bn3v37e6c7uxi" path="res://sprites/personagens/Ivan/quadro0009/quadro0016.png" id="17_glmqi"]
+[ext_resource type="Texture2D" uid="uid://c0aenvapvx3hw" path="res://sprites/personagens/Ivan/quadro0009/quadro0017.png" id="18_0awf3"]
+[ext_resource type="Texture2D" uid="uid://nk6nfe62a5b7" path="res://sprites/personagens/Ivan/pulando/quadro0000.png" id="23_nfty2"]
+[ext_resource type="Texture2D" uid="uid://dfnn8u751f4b6" path="res://sprites/personagens/Ivan/pulando/quadro0001.png" id="24_t3y3j"]
+[ext_resource type="Texture2D" uid="uid://dogxmvtgp5pr0" path="res://sprites/personagens/Ivan/pulando/quadro0002.png" id="25_sw0jw"]
+[ext_resource type="Texture2D" uid="uid://mrx5usx1flsq" path="res://sprites/personagens/Ivan/pulando/quadro0003.png" id="26_4fg3w"]
+[ext_resource type="Texture2D" uid="uid://dakx7yuubcern" path="res://sprites/personagens/Ivan/pulando/quadro0004.png" id="27_g5pxw"]
+[ext_resource type="Texture2D" uid="uid://bdkxgxlq42f42" path="res://sprites/personagens/Ivan/pulando/quadro0005.png" id="28_q1g1g"]
+[ext_resource type="Texture2D" uid="uid://dr7ky7ew74esb" path="res://sprites/personagens/Ivan/pulando/quadro0006.png" id="29_dnnlu"]
+[ext_resource type="Texture2D" uid="uid://lw0g2exibtph" path="res://sprites/personagens/Ivan/pulando/quadro0007.png" id="30_lghqr"]
+[ext_resource type="Texture2D" uid="uid://dt82fi5yg7bfe" path="res://sprites/personagens/Ivan/pulando/quadro0008.png" id="31_88aao"]
+[ext_resource type="Texture2D" uid="uid://67a8xbkvrlwq" path="res://sprites/personagens/Ivan/pulando/quadro0009.png" id="32_js3pn"]
+[ext_resource type="Texture2D" uid="uid://jw1hmhs4ryhr" path="res://sprites/personagens/Ivan/pulando/quadro0010.png" id="33_ot5ag"]
+[ext_resource type="Texture2D" uid="uid://gxthnq1lux4h" path="res://sprites/personagens/Ivan/pulando/quadro0011.png" id="34_cjae5"]
+[ext_resource type="Texture2D" uid="uid://hd8edhns7dus" path="res://sprites/personagens/Ivan/pulando/quadro0012.png" id="35_em1ao"]
+[ext_resource type="Texture2D" uid="uid://ctcuumfjhaur3" path="res://sprites/personagens/Ivan/pulando/quadro0013.png" id="36_brkgl"]
+[ext_resource type="Texture2D" uid="uid://c6kpyuwarnftf" path="res://sprites/personagens/Ivan/pulando/quadro0014.png" id="37_gux6a"]
+[ext_resource type="Texture2D" uid="uid://bmspuk122gtq8" path="res://sprites/personagens/Ivan/pulando/quadro0015.png" id="38_ywnos"]
+[ext_resource type="Texture2D" uid="uid://q2utvkihmqj1" path="res://sprites/personagens/Ivan/pulando/quadro0016.png" id="39_murhi"]
+[ext_resource type="Texture2D" uid="uid://b0a5qy7qmtxtp" path="res://sprites/personagens/Ivan/pulando/quadro0017.png" id="40_6r84r"]
+[ext_resource type="Texture2D" uid="uid://b00t1mhof8hb2" path="res://sprites/personagens/Ivan/pulando/quadro0018.png" id="41_hmfp0"]
+[ext_resource type="Texture2D" uid="uid://bfawsxuca22dn" path="res://sprites/personagens/Ivan/pulando/quadro0019.png" id="42_03sns"]
+[ext_resource type="Texture2D" uid="uid://dogtt7ajw8v7v" path="res://sprites/personagens/Ivan/pulando/quadro0020.png" id="43_ma1xr"]
+[ext_resource type="Texture2D" uid="uid://bu6na6tank6kk" path="res://sprites/personagens/Ivan/pulando/quadro0021.png" id="44_a1av5"]
+[ext_resource type="Texture2D" uid="uid://cpx7qgo6j0t80" path="res://sprites/personagens/Ivan/pulando/quadro0022.png" id="45_0yecy"]
+[ext_resource type="Texture2D" uid="uid://d6a1aek53ton" path="res://sprites/personagens/Ivan/pulando/quadro0023.png" id="46_whudl"]
+[ext_resource type="Texture2D" uid="uid://cqk0tomch8a2u" path="res://sprites/personagens/Ivan/pulando/quadro0024.png" id="47_u3u8g"]
+[ext_resource type="Texture2D" uid="uid://1cxwncuxhv01" path="res://sprites/personagens/Ivan/pulando/quadro0025.png" id="48_vlc2a"]
+[ext_resource type="Texture2D" uid="uid://ba30ur6vbwj15" path="res://sprites/personagens/Ivan/pulando/quadro0026.png" id="49_wmhj5"]
+[ext_resource type="Texture2D" uid="uid://d10xpi6ha2yn2" path="res://sprites/personagens/Ivan/pulando/quadro0027.png" id="50_5o8ep"]
+[ext_resource type="Texture2D" uid="uid://ckrgbyirafgng" path="res://sprites/personagens/Ivan/pulando/quadro0028.png" id="51_0wk7c"]
+[ext_resource type="Texture2D" uid="uid://cuyedn0t08l2l" path="res://sprites/personagens/Ivan/pulando/quadro0029.png" id="52_y4so1"]
+[ext_resource type="Texture2D" uid="uid://6l0uaffyj43u" path="res://sprites/personagens/Ivan/pulando/quadro0030.png" id="53_5e38u"]
+[ext_resource type="Texture2D" uid="uid://cuq1agpy0aha" path="res://sprites/personagens/Ivan/pulando/quadro0031.png" id="54_12hmm"]
+[ext_resource type="Texture2D" uid="uid://6xck4wmd1uun" path="res://sprites/personagens/Ivan/pulando/quadro0032.png" id="55_twxcs"]
+[ext_resource type="Texture2D" uid="uid://c82c3me7doicy" path="res://sprites/personagens/Ivan/pulando/quadro0033.png" id="56_n2qu1"]
+[ext_resource type="Texture2D" uid="uid://gnvci0p3giet" path="res://sprites/personagens/Ivan/pulando/quadro0034.png" id="57_04oog"]
+[ext_resource type="Texture2D" uid="uid://wkt15483a6kn" path="res://sprites/personagens/Ivan/pulando/quadro0035.png" id="58_qw445"]
+[ext_resource type="Texture2D" uid="uid://bsmm42tsay11g" path="res://sprites/personagens/Ivan/pulando/quadro0036.png" id="59_vwe1s"]
+[ext_resource type="Texture2D" uid="uid://cdfa5m6h4qqqa" path="res://sprites/personagens/Ivan/pulando/quadro0037.png" id="60_47hcs"]
+[ext_resource type="Texture2D" uid="uid://elr8otwq35xd" path="res://sprites/personagens/Ivan/pulando/quadro0038.png" id="61_jtfyl"]
+[ext_resource type="Texture2D" uid="uid://bea0jitlwj0xs" path="res://sprites/personagens/Ivan/pulando/quadro0039.png" id="62_efdcx"]
+[ext_resource type="Texture2D" uid="uid://bxmfhdkhxgc4y" path="res://sprites/personagens/Ivan/pulando/quadro0040.png" id="63_blqix"]
+[ext_resource type="Texture2D" uid="uid://ch1dfkhfudyxb" path="res://sprites/personagens/Ivan/pulando/quadro0041.png" id="64_tsjhp"]
+[ext_resource type="Texture2D" uid="uid://bi1wkj61ahosb" path="res://sprites/personagens/Ivan/pulando/quadro0042.png" id="65_5fsve"]
+[ext_resource type="Texture2D" uid="uid://cioeowfdcquxl" path="res://sprites/personagens/Ivan/pulando/quadro0043.png" id="66_2adi1"]
+[ext_resource type="Texture2D" uid="uid://b38whs8pamv6b" path="res://sprites/personagens/Ivan/pulando/quadro0044.png" id="67_ukbei"]
+[ext_resource type="PackedScene" uid="uid://c1hdc1g6bow6r" path="res://scenas/backgame/camera.tscn" id="80_nhg1u"]
+
+[sub_resource type="GDScript" id="GDScript_4gdu3"]
+script/source = "extends Node2D
+
+@export var body = $body
+
+func _process(_delta):
+	global_position = body.global_position.round()
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t27dy"]
+size = Vector2(8, 21)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eugdk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_da1kd")
+}],
+"loop": true,
+"name": &"Ivan_agachado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_6yleu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2bnog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nhg1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6phqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_k16cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8naun")
+}],
+"loop": true,
+"name": &"Ivan_climb",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_mcu4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ahqwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vs1bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mgfrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_m23nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3eeib")
+}],
+"loop": false,
+"name": &"Ivan_climbing",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jx2bj")
+}],
+"loop": true,
+"name": &"Ivan_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_nfty2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_t3y3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_sw0jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_4fg3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_g5pxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_q1g1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_dnnlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_lghqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_88aao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_js3pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ot5ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_cjae5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_em1ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_brkgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gux6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ywnos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_murhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6r84r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_hmfp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_03sns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ma1xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_a1av5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_0yecy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_whudl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_u3u8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_vlc2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_wmhj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_5o8ep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_0wk7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_y4so1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_5e38u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_12hmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_twxcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_n2qu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_04oog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_qw445")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_vwe1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_47hcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jtfyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_efdcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_blqix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_tsjhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_5fsve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_2adi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_ukbei")
+}],
+"loop": true,
+"name": &"Ivan_jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jf82e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vwecp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6fcp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lmatn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7abix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bi83s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8jada")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vy2nf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qnqiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_dseh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dn4l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_anl41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_40qee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_dxpw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jsl1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_cxppe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_glmqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_0awf3")
+}],
+"loop": true,
+"name": &"Ivan_running",
+"speed": 5.0
+}]
+
+[node name="player" type="Node2D"]
+script = SubResource("GDScript_4gdu3")
+
+[node name="body" type="CharacterBody2D" parent="." node_paths=PackedStringArray("anim")]
+position = Vector2(-1, 1)
+collision_mask = 32768
+script = ExtResource("1_a0s64")
+anim = NodePath("AnimatedSprite2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="body"]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_t27dy")
+debug_color = Color(0.978924, 0, 0.3960697, 0.41960785)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="body"]
+position = Vector2(0, -4)
+sprite_frames = SubResource("SpriteFrames_eugdk")
+animation = &"Ivan_idle"
+offset = Vector2(0, -2)
+
+[node name="camera" parent="." instance=ExtResource("80_nhg1u")]
+position = Vector2(-1, 1)

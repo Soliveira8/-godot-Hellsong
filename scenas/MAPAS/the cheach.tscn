@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://w5dsmg658utw"]
+
+[ext_resource type="Texture2D" uid="uid://i8pm2rxvgtmk" path="res://sprites/cenario/igreja/capela.png" id="1_y08pc"]
+[ext_resource type="PackedScene" uid="uid://28h73r53vnki" path="res://scenas/backgame/game.tscn" id="3_iut5n"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(254, 120)
+texture = ExtResource("1_y08pc")
+region_enabled = true
+region_rect = Rect2(0, 0, 508, 240)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(52, 120)
+texture = ExtResource("1_y08pc")
+region_enabled = true
+region_rect = Rect2(0, 0, 104, 240)
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(439, 121)
+scale = Vector2(-1, 1)
+texture = ExtResource("1_y08pc")
+region_enabled = true
+region_rect = Rect2(0, 0, 104, 240)
+
+[node name="game" parent="." instance=ExtResource("3_iut5n")]
